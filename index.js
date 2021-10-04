@@ -1,6 +1,6 @@
 //1
 function countFromOne(n){
-    for(var i = 1; i <= n; i++) {
+    for(let i = 1; i <= n; i++) {
      console.log(i);
 }
 }
