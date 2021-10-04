@@ -7,9 +7,9 @@ function countFromOne(n){
 
 //2
 function countEveryOdd(n){
-     for(let i = 1; i <= n; i+=3){
-    if(i > 1){
-     console.log(i)
+     for(let i = 1; i <= n; i++){
+        if(i % 2 !=0)     
+        console.log(i)
 }
 }
 
